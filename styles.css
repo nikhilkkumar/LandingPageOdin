@@ -8,16 +8,18 @@ body{
 .header {
   background-color: #1F2937;
   display: flex;
+  padding: 24px 64px 24px 64px;
 }
 
 .icons {
-  flex: 1 0 0
+  flex: 1 0 0;
 }
 
 .header-links {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 24px;
 }
 
 .header-link {
