@@ -1,7 +1,7 @@
 body{
   height: 100vh;
   margin: 0; 
-  padding 0;
+  padding: 0;
  }
 
 /* header css */
@@ -33,4 +33,33 @@ body{
 
 .route {
   filter: brightness(0) invert(1);
+}
+
+/* section 1 css */
+.section-one {
+  background-color: #1F2937;
+  display: flex;
+  padding: 24px 64px 24px 64px;
+  color: #E5E7EB;
+}
+
+.s1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.title-one {
+  font-size: 48px;
+}
+
+.sub-title {
+  font-size: 24px;
+  width: 800px;
+  flex-basis: 100;
+}
+
+.b1 {
+  background-color: blue;
+  font-size: white;
 }
