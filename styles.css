@@ -49,17 +49,29 @@ body{
   flex-wrap: wrap;
 }
 
+.cafe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cafe-image {
+  max-width: 500px;
+}
+
 .title-one {
   font-size: 48px;
 }
 
 .sub-title {
   font-size: 24px;
-  width: 800px;
+  width: 600px;
   flex-basis: 100;
 }
 
 .b1 {
   background-color: blue;
   font-size: white;
+  flex-grow: 0;
+  height: 32 px;
 }
