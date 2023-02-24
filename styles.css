@@ -52,9 +52,9 @@ body{
 }
 
 .cafe {
+  flex: 1;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .cafe-image {
@@ -75,7 +75,7 @@ body{
   background-color: blue;
   font-size: white;
   flex-grow: 0;
-  font-weight: 
+  font-weight: 800;
   height: 64px;
   color:#ffffff;
   width: 72px;
