@@ -8,7 +8,7 @@ body{
 .header {
   background-color: #1F2937;
   display: flex;
-  padding: 24px 64px 24px 64px;
+  padding: 24px 128px 24px 128px;
 }
 
 .icons {
@@ -39,7 +39,7 @@ body{
 .section-one {
   background-color: #1F2937;
   display: flex;
-  padding: 24px 64px 24px 64px;
+  padding: 24px 128px 24px 128px;
   color: #E5E7EB;
 }
 
@@ -47,6 +47,8 @@ body{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
 }
 
 .cafe {
@@ -73,5 +75,18 @@ body{
   background-color: blue;
   font-size: white;
   flex-grow: 0;
-  height: 32 px;
+  font-weight: 
+  height: 64px;
+  color:#ffffff;
+  width: 72px;
+  height: 32px;
+  border-radius: 12px;
+}
+
+/* section 2 css */
+.title-two {
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  padding: 24px 0px 0px 0px;
 }
