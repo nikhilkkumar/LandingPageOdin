@@ -47,8 +47,7 @@ body{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 24px;
+  justify-content: space-around;
 }
 
 .cafe {
@@ -71,6 +70,11 @@ body{
   flex-basis: 100;
 }
 
+.button-div-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .b1 {
   background-color: blue;
   font-size: white;
@@ -78,7 +82,7 @@ body{
   font-weight: 800;
   height: 64px;
   color:#ffffff;
-  width: 72px;
+  width: 100px;
   height: 32px;
   border-radius: 12px;
 }
