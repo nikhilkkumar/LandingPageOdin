@@ -53,7 +53,8 @@ body{
 .cafe {
   flex: 1;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  gap: 8px;
 }
 
 .cafe-image {
@@ -93,4 +94,9 @@ body{
   display: flex;
   justify-content: center;
   padding: 24px 0px 0px 0px;
+}
+
+.container-squares {
+  display: flex;
+  justify-content: center;
 }
