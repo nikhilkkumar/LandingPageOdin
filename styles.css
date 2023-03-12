@@ -94,9 +94,26 @@ body{
   display: flex;
   justify-content: center;
   padding: 24px 0px 0px 0px;
+  margin-bottom: 24px;
 }
 
 .container-squares {
   display: flex;
   justify-content: center;
+  gap: 64px;
+  flex-wrap: wrap;
+}
+
+.pands1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 160px;
+  align-items: center;
+  gap: 16px;
+}
+
+.pands2 {
+  width: 120px;
+  border: blue;
 }
