@@ -173,5 +173,9 @@ body{
 
 /* Section 5 CSS */
 .footer {
-  
+  background-color: #1F2937;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  color: white;
 }
