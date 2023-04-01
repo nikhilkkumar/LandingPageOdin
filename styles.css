@@ -39,7 +39,7 @@ body{
 .section-one {
   background-color: #1F2937;
   display: flex;
-  padding: 24px 128px 24px 128px;
+  padding: 24px 128px 48px 128px;
   color: #E5E7EB;
 }
 
@@ -78,7 +78,6 @@ body{
 
 .b1 {
   background-color: blue;
-  font-size: white;
   flex-grow: 0;
   font-weight: 800;
   height: 64px;
@@ -100,7 +99,7 @@ body{
 .container-squares {
   display: flex;
   justify-content: center;
-  gap: 64px;
+  gap: 128px;
   flex-wrap: wrap;
 }
 
@@ -144,8 +143,8 @@ body{
   display: flex;
   background-color: #3882F6;
   margin: 24px 128px 24px 128px;
-  padding: 24px 48px 24px 48px;
-  justify-content: space-evenly;
+  padding: 24px 128px 24px 128px;
+  justify-content: space-between;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   border-radius: 12px;
@@ -154,4 +153,25 @@ body{
 .CTA {
   display: flex;
   flex-direction: column;
+}
+
+.CTAt1 {
+  font-weight: bold;
+}
+
+.button2 {
+  background-color: #3882F6;
+  border-color: #ffffff;
+  flex-grow: 0;
+  font-weight: 800;
+  height: 64px;
+  color:#ffffff;
+  width: 100px;
+  height: 32px;
+  border-radius: 12px;
+}
+
+/* Section 5 CSS */
+.footer {
+  
 }
